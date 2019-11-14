@@ -1,0 +1,565 @@
+[33mcommit 0afee44f19c00a8552cc4ea1515211fe4f5c096d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Alextek777 <55399665+Alextek777@users.noreply.github.com>
+Date:   Thu Nov 14 23:58:40 2019 +0300
+
+    add HomeWork(1.1)
+
+[1mdiff --git a/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/.suo b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/.suo[m
+[1mnew file mode 100644[m
+[1mindex 0000000..847d2fa[m
+Binary files /dev/null and b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/.suo differ
+[1mdiff --git a/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/Browse.VC.db b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/Browse.VC.db[m
+[1mnew file mode 100644[m
+[1mindex 0000000..340e6df[m
+Binary files /dev/null and b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/Browse.VC.db differ
+[1mdiff --git a/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/1b5278ab17954718/FUNCTIONS.ipch b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/1b5278ab17954718/FUNCTIONS.ipch[m
+[1mnew file mode 100644[m
+[1mindex 0000000..86ec982[m
+Binary files /dev/null and b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/1b5278ab17954718/FUNCTIONS.ipch differ
+[1mdiff --git a/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/6f897ef699e1a48a/MAIN.ipch b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/6f897ef699e1a48a/MAIN.ipch[m
+[1mnew file mode 100644[m
+[1mindex 0000000..77b297c[m
+Binary files /dev/null and b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/6f897ef699e1a48a/MAIN.ipch differ
+[1mdiff --git a/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/88c78ae7dc7fba/MAIN.ipch b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/88c78ae7dc7fba/MAIN.ipch[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b3a5938[m
+Binary files /dev/null and b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/88c78ae7dc7fba/MAIN.ipch differ
+[1mdiff --git a/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/b1a77eddfd7932db/FUNCTIONS.ipch b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/b1a77eddfd7932db/FUNCTIONS.ipch[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2e001d0[m
+Binary files /dev/null and b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/b1a77eddfd7932db/FUNCTIONS.ipch differ
+[1mdiff --git a/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/cee1a58043640628/FUNCTIONS.ipch b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/cee1a58043640628/FUNCTIONS.ipch[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3eded14[m
+Binary files /dev/null and b/HomeWork(1.1)/.vs/HomeWork(1.1)/v16/ipch/AutoPCH/cee1a58043640628/FUNCTIONS.ipch differ
+[1mdiff --git a/HomeWork(1.1)/Debug/HomeWork(1.1).exe b/HomeWork(1.1)/Debug/HomeWork(1.1).exe[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0e9124e[m
+Binary files /dev/null and b/HomeWork(1.1)/Debug/HomeWork(1.1).exe differ
+[1mdiff --git a/HomeWork(1.1)/Debug/HomeWork(1.1).ilk b/HomeWork(1.1)/Debug/HomeWork(1.1).ilk[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c0fc3ca[m
+Binary files /dev/null and b/HomeWork(1.1)/Debug/HomeWork(1.1).ilk differ
+[1mdiff --git a/HomeWork(1.1)/Debug/HomeWork(1.1).pdb b/HomeWork(1.1)/Debug/HomeWork(1.1).pdb[m
+[1mnew file mode 100644[m
+[1mindex 0000000..32f84ec[m
+Binary files /dev/null and b/HomeWork(1.1)/Debug/HomeWork(1.1).pdb differ
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1).sln b/HomeWork(1.1)/HomeWork(1.1).sln[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f6cbc25[m
+[1m--- /dev/null[m
+[1m+++ b/HomeWork(1.1)/HomeWork(1.1).sln[m
+[36m@@ -0,0 +1,31 @@[m
+[32m+[m[32m﻿[m
+[32m+[m[32mMicrosoft Visual Studio Solution File, Format Version 12.00[m
+[32m+[m[32m# Visual Studio Version 16[m
+[32m+[m[32mVisualStudioVersion = 16.0.29123.88[m
+[32m+[m[32mMinimumVisualStudioVersion = 10.0.40219.1[m
+[32m+[m[32mProject("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HomeWork(1.1)", "HomeWork(1.1)\HomeWork(1.1).vcxproj", "{2A88F1AC-5A97-437C-95FB-7A96C271919D}"[m
+[32m+[m[32mEndProject[m
+[32m+[m[32mGlobal[m
+[32m+[m	[32mGlobalSection(SolutionConfigurationPlatforms) = preSolution[m
+[32m+[m		[32mDebug|x64 = Debug|x64[m
+[32m+[m		[32mDebug|x86 = Debug|x86[m
+[32m+[m		[32mRelease|x64 = Release|x64[m
+[32m+[m		[32mRelease|x86 = Release|x86[m
+[32m+[m	[32mEndGlobalSection[m
+[32m+[m	[32mGlobalSection(ProjectConfigurationPlatforms) = postSolution[m
+[32m+[m		[32m{2A88F1AC-5A97-437C-95FB-7A96C271919D}.Debug|x64.ActiveCfg = Debug|x64[m
+[32m+[m		[32m{2A88F1AC-5A97-437C-95FB-7A96C271919D}.Debug|x64.Build.0 = Debug|x64[m
+[32m+[m		[32m{2A88F1AC-5A97-437C-95FB-7A96C271919D}.Debug|x86.ActiveCfg = Debug|Win32[m
+[32m+[m		[32m{2A88F1AC-5A97-437C-95FB-7A96C271919D}.Debug|x86.Build.0 = Debug|Win32[m
+[32m+[m		[32m{2A88F1AC-5A97-437C-95FB-7A96C271919D}.Release|x64.ActiveCfg = Release|x64[m
+[32m+[m		[32m{2A88F1AC-5A97-437C-95FB-7A96C271919D}.Release|x64.Build.0 = Release|x64[m
+[32m+[m		[32m{2A88F1AC-5A97-437C-95FB-7A96C271919D}.Release|x86.ActiveCfg = Release|Win32[m
+[32m+[m		[32m{2A88F1AC-5A97-437C-95FB-7A96C271919D}.Release|x86.Build.0 = Release|Win32[m
+[32m+[m	[32mEndGlobalSection[m
+[32m+[m	[32mGlobalSection(SolutionProperties) = preSolution[m
+[32m+[m		[32mHideSolutionNode = FALSE[m
+[32m+[m	[32mEndGlobalSection[m
+[32m+[m	[32mGlobalSection(ExtensibilityGlobals) = postSolution[m
+[32m+[m		[32mSolutionGuid = {D454AE72-AB49-4326-A319-764EF45CA69F}[m
+[32m+[m	[32mEndGlobalSection[m
+[32m+[m[32mEndGlobal[m
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Debug/Functions.obj b/HomeWork(1.1)/HomeWork(1.1)/Debug/Functions.obj[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e0784ac[m
+Binary files /dev/null and b/HomeWork(1.1)/HomeWork(1.1)/Debug/Functions.obj differ
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).log b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).log[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d65e1eb[m
+[1m--- /dev/null[m
+[1m+++ b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).log[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m﻿  Functions.cpp[m
+[32m+[m[32m  main.cpp[m
+[32m+[m[32mC:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.1)\HomeWork(1.1)\Functions.cpp(8,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data[m
+[32m+[m[32m  Generating Code...[m
+[32m+[m[32mC:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.1)\HomeWork(1.1)\main.cpp(5,1): warning C4326:  return type of 'main' should be 'int' instead of 'void'[m
+[32m+[m[32m  HomeWork(1.1).vcxproj -> C:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.1)\Debug\HomeWork(1.1).exe[m
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/CL.command.1.tlog b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/CL.command.1.tlog[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ba2d907[m
+Binary files /dev/null and b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/CL.command.1.tlog differ
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/CL.read.1.tlog b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/CL.read.1.tlog[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bacb52d[m
+Binary files /dev/null and b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/CL.read.1.tlog differ
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/CL.write.1.tlog b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/CL.write.1.tlog[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c4a5ec6[m
+Binary files /dev/null and b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/CL.write.1.tlog differ
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/HomeWork(1.1).lastbuildstate b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/HomeWork(1.1).lastbuildstate[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b8232fc[m
+[1m--- /dev/null[m
+[1m+++ b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/HomeWork(1.1).lastbuildstate[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m#TargetFrameworkVersion=v4.0:PlatformToolSet=v142:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0[m
+[32m+[m[32mDebug|Win32|C:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.1)\|[m
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/link.command.1.tlog b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/link.command.1.tlog[m
+[1mnew file mode 100644[m
+[1mindex 0000000..eae5aa3[m
+Binary files /dev/null and b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/link.command.1.tlog differ
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/link.read.1.tlog b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/link.read.1.tlog[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a24522c[m
+Binary files /dev/null and b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/link.read.1.tlog differ
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/link.write.1.tlog b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/link.write.1.tlog[m
+[1mnew file mode 100644[m
+[1mindex 0000000..cc4295e[m
+Binary files /dev/null and b/HomeWork(1.1)/HomeWork(1.1)/Debug/HomeWork(1.1).tlog/link.write.1.tlog differ
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Debug/main.obj b/HomeWork(1.1)/HomeWork(1.1)/Debug/main.obj[m
+[1mnew file mode 100644[m
+[1mindex 0000000..642c6cc[m
+Binary files /dev/null and b/HomeWork(1.1)/HomeWork(1.1)/Debug/main.obj differ
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Debug/vc142.idb b/HomeWork(1.1)/HomeWork(1.1)/Debug/vc142.idb[m
+[1mnew file mode 100644[m
+[1mindex 0000000..77d4902[m
+Binary files /dev/null and b/HomeWork(1.1)/HomeWork(1.1)/Debug/vc142.idb differ
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Debug/vc142.pdb b/HomeWork(1.1)/HomeWork(1.1)/Debug/vc142.pdb[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b43952a[m
+Binary files /dev/null and b/HomeWork(1.1)/HomeWork(1.1)/Debug/vc142.pdb differ
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Functions.cpp b/HomeWork(1.1)/HomeWork(1.1)/Functions.cpp[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ed532f4[m
+[1m--- /dev/null[m
+[1m+++ b/HomeWork(1.1)/HomeWork(1.1)/Functions.cpp[m
+[36m@@ -0,0 +1,32 @@[m
+[32m+[m[32m#pragma once[m
+[32m+[m[32m#include "Functions.h"[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32mvoid createData(std::string &FileName)[m
+[32m+[m[32m{[m
+[32m+[m	[32msrand(time(NULL));[m
+[32m+[m	[32mstd::ofstream str;[m
+[32m+[m	[32mstr.open(FileName, std::ios::out | std::ios::trunc);[m
+[32m+[m
+[32m+[m	[32mfor (int i = 0; i < 100; i++)[m
+[32m+[m		[32mstr << rand() % 101 - 50 << " ";[m
+[32m+[m	[32mstr.close();[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mvoid createData(std::string& FileName, std::vector<int>& vec)[m
+[32m+[m[32m{[m
+[32m+[m	[32mstd::generate(vec.begin(), vec.end(), []() {return rand() % 101 - 50; });[m
+[32m+[m	[32mstd::ofstream out;[m
+[32m+[m	[32mout.open(FileName, std::ios::out | std::ios::trunc);[m
+[32m+[m
+[32m+[m	[32mstd::copy(vec.begin(), vec.end(), std::ostream_iterator<int>(out," "));[m
+[32m+[m	[32mout.close();[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/Functions.h b/HomeWork(1.1)/HomeWork(1.1)/Functions.h[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0fdff54[m
+[1m--- /dev/null[m
+[1m+++ b/HomeWork(1.1)/HomeWork(1.1)/Functions.h[m
+[36m@@ -0,0 +1,145 @@[m
+[32m+[m[32m#pragma once[m
+[32m+[m[32m#include <fstream>[m
+[32m+[m[32m#include <iostream>[m
+[32m+[m[32m#include <ctime>[m
+[32m+[m[32m#include <stdlib.h>[m
+[32m+[m[32m#include <algorithm>[m
+[32m+[m[32m#include <vector>[m
+[32m+[m[32m#include <iterator>[m
+[32m+[m[32m#include <math.h>[m
+[32m+[m
+[32m+[m[32mvoid createData(std::string &FileName); //1.1[m
+[32m+[m
+[32m+[m[32mvoid createData(std::string& FileName,std::vector<int> &vec); //1.2[m
+[32m+[m
+[32m+[m
+[32m+[m[32mtemplate<typename contType>[m
+[32m+[m[32mbool loadDataFile(contType& cont, std::string& fileName)		//2.1[m
+[32m+[m[32m{[m
+[32m+[m	[32mstd::ifstream str;[m
+[32m+[m	[32mstr.open(fileName, std::ios::out | std::ios::app);[m
+[32m+[m	[32mif (!str.is_open())[m
+[32m+[m	[32m{[m
+[32m+[m		[32mstd::cout << "failed opening file!" << std::endl;[m
+[32m+[m		[32mreturn false;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mtypename contType::value_type dataT;[m
+[32m+[m
+[32m+[m	[32mwhile (!str.eof())[m
+[32m+[m	[32m{[m
+[32m+[m		[32mstr >> dataT;[m
+[32m+[m		[32mcont.push_back(dataT);[m
+[32m+[m	[32m}[m
+[32m+[m	[32mcont.pop_back();[m
+[32m+[m	[32mstr.close();[m
+[32m+[m	[32mreturn true;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32mtemplate<typename contType>[m
+[32m+[m[32mbool loadDataIterator(contType& cont, std::string& fileName)		//2.2[m
+[32m+[m[32m{[m
+[32m+[m	[32mstd::ifstream fin;[m
+[32m+[m[41m	[m
+[32m+[m	[32mfin.open(fileName, std::ios::in);[m
+[32m+[m	[32mif(!fin.is_open())[m
+[32m+[m	[32m{[m
+[32m+[m		[32mstd::cout << "couldn`t open file : " << fileName << std::endl;[m
+[32m+[m		[32mreturn false;[m
+[32m+[m	[32m}[m
+[32m+[m	[32mstd::copy( std::istream_iterator<typename contType::value_type>(fin) , std::istream_iterator<typename contType::value_type>()  ,std::inserter(cont,cont.end()) );[m
+[32m+[m	[32mfin.close();[m
+[32m+[m	[32mreturn true;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32mtemplate<typename contType>[m
+[32m+[m[32mvoid modify(contType& cont)	//3.1 #17[m
+[32m+[m[32m{[m
+[32m+[m	[32mtypename contType::value_type max;[m
+[32m+[m	[32mtypename contType::value_type sum = 0;[m
+[32m+[m	[32mmax = *cont.begin();[m
+[32m+[m
+[32m+[m	[32mfor (auto it = cont.begin(); it != cont.end(); ++it)[m
+[32m+[m	[32m{[m
+[32m+[m		[32mif (max < *it)	max = *it;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mfor(auto it = cont.begin(); it != cont.end(); ++it)[m
+[32m+[m	[32m{[m
+[32m+[m		[32mif (*it > 0) *it = max;[m
+[32m+[m		[32msum += abs(*it);[m
+[32m+[m	[32m}[m
+[32m+[m	[32mcont.push_back(sum / cont.size());[m
+[32m+[m	[32mcont.push_back(sum);[m
+[32m+[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32mtemplate<typename iterType>[m
+[32m+[m[32mvoid modify(iterType beg,iterType end)	//3.2 #17[m
+[32m+[m[32m{[m
+[32m+[m	[32mtypename iterType::value_type max = *beg;[m
+[32m+[m	[32mfor (auto it = beg; it != end; it++)[m
+[32m+[m	[32m{[m
+[32m+[m		[32mif (max < *it)	max = *it;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mfor (auto it = beg; it != end; it++)[m
+[32m+[m	[32m{[m
+[32m+[m		[32mif (*it > 0) *it = max;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32mtemplate<typename iterType>[m
+[32m+[m[32mvoid modify_each(iterType beg,iterType end)	//3.3 #17[m
+[32m+[m[32m{[m
+[32m+[m	[32mtypename iterType::value_type max = *beg;[m
+[32m+[m	[32mfor (auto it = beg; it != end; it++)[m
+[32m+[m	[32m{[m
+[32m+[m		[32mif (max < *it)	max = *it;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mstd::for_each(beg, end, [=](typename iterType::value_type& current) {if (current > 0) current = max; });[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32mtemplate<typename contType>[m
+[32m+[m[32mvoid outputResultStream(contType& cont,std::string fileName)[m
+[32m+[m[32m{[m
+[32m+[m	[32mstd::ofstream fout;[m
+[32m+[m	[32mfout.open(fileName, std::ios::out | std::ios::app);[m
+[32m+[m	[32mif (!fout.is_open())[m
+[32m+[m	[32m{[m
+[32m+[m		[32mstd::cout << "couldn`t open file!" << std::endl;[m
+[32m+[m		[32mreturn;[m
+[32m+[m	[32m}[m
+[32m+[m	[32mtypename contType::iterator iter = cont.begin();[m
+[32m+[m	[32mwhile (iter != cont.end())[m
+[32m+[m	[32m{[m
+[32m+[m		[32mfout << *iter;[m
+[32m+[m		[32m++iter;[m
+[32m+[m	[32m}[m
+[32m+[m	[32mfout.close();[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mtemplate<typename contType>[m
+[32m+[m[32mvoid outputResultIterators(contType& cont, std::string fileName)[m
+[32m+[m[32m{[m
+[32m+[m	[32mstd::ofstream fout;[m
+[32m+[m	[32mfout.open(fileName, std::ios::out | std::ios::app);[m
+[32m+[m	[32mif (!fout.is_open())[m
+[32m+[m	[32m{[m
+[32m+[m		[32mstd::cout << "couldn`t open file!" << std::endl;[m
+[32m+[m		[32mreturn;[m
+[32m+[m	[32m}[m
+[32m+[m	[32mstd::copy(cont.begin(), cont.end(), std::ostream_iterator<typename contType::value_type>(fout," "));[m
+[32m+[m	[32mfout.close();[m
+[32m+[m[32m}[m
+[32m+[m
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/HomeWork(1.1).vcxproj b/HomeWork(1.1)/HomeWork(1.1)/HomeWork(1.1).vcxproj[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0503383[m
+[1m--- /dev/null[m
+[1m+++ b/HomeWork(1.1)/HomeWork(1.1)/HomeWork(1.1).vcxproj[m
+[36m@@ -0,0 +1,135 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m
+[32m+[m[32m<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">[m
+[32m+[m[32m  <ItemGroup Label="ProjectConfigurations">[m
+[32m+[m[32m    <ProjectConfiguration Include="Debug|Win32">[m
+[32m+[m[32m      <Configuration>Debug</Configuration>[m
+[32m+[m[32m      <Platform>Win32</Platform>[m
+[32m+[m[32m    </ProjectConfiguration>[m
+[32m+[m[32m    <ProjectConfiguration Include="Release|Win32">[m
+[32m+[m[32m      <Configuration>Release</Configuration>[m
+[32m+[m[32m      <Platform>Win32</Platform>[m
+[32m+[m[32m    </ProjectConfiguration>[m
+[32m+[m[32m    <ProjectConfiguration Include="Debug|x64">[m
+[32m+[m[32m      <Configuration>Debug</Configuration>[m
+[32m+[m[32m      <Platform>x64</Platform>[m
+[32m+[m[32m    </ProjectConfiguration>[m
+[32m+[m[32m    <ProjectConfiguration Include="Release|x64">[m
+[32m+[m[32m      <Configuration>Release</Configuration>[m
+[32m+[m[32m      <Platform>x64</Platform>[m
+[32m+[m[32m    </ProjectConfiguration>[m
+[32m+[m[32m  </ItemGroup>[m
+[32m+[m[32m  <PropertyGroup Label="Globals">[m
+[32m+[m[32m    <VCProjectVersion>16.0</VCProjectVersion>[m
+[32m+[m[32m    <ProjectGuid>{2A88F1AC-5A97-437C-95FB-7A96C271919D}</ProjectGuid>[m
+[32m+[m[32m    <RootNamespace>HomeWork11</RootNamespace>[m
+[32m+[m[32m    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>[m
+[32m+[m[32m  </PropertyGroup>[m
+[32m+[m[32m  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />[m
+[32m+[m[32m  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">[m
+[32m+[m[32m    <ConfigurationType>Application</ConfigurationType>[m
+[32m+[m[32m    <UseDebugLibraries>true</UseDebugLibraries>[m
+[32m+[m[32m    <PlatformToolset>v142</PlatformToolset>[m
+[32m+[m[32m    <CharacterSet>MultiByte</CharacterSet>[m
+[32m+[m[32m  </PropertyGroup>[m
+[32m+[m[32m  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">[m
+[32m+[m[32m    <ConfigurationType>Application</ConfigurationType>[m
+[32m+[m[32m    <UseDebugLibraries>false</UseDebugLibraries>[m
+[32m+[m[32m    <PlatformToolset>v142</PlatformToolset>[m
+[32m+[m[32m    <WholeProgramOptimization>true</WholeProgramOptimization>[m
+[32m+[m[32m    <CharacterSet>MultiByte</CharacterSet>[m
+[32m+[m[32m  </PropertyGroup>[m
+[32m+[m[32m  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">[m
+[32m+[m[32m    <ConfigurationType>Application</ConfigurationType>[m
+[32m+[m[32m    <UseDebugLibraries>true</UseDebugLibraries>[m
+[32m+[m[32m    <PlatformToolset>v142</PlatformToolset>[m
+[32m+[m[32m    <CharacterSet>MultiByte</CharacterSet>[m
+[32m+[m[32m  </PropertyGroup>[m
+[32m+[m[32m  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">[m
+[32m+[m[32m    <ConfigurationType>Application</ConfigurationType>[m
+[32m+[m[32m    <UseDebugLibraries>false</UseDebugLibraries>[m
+[32m+[m[32m    <PlatformToolset>v142</PlatformToolset>[m
+[32m+[m[32m    <WholeProgramOptimization>true</WholeProgramOptimization>[m
+[32m+[m[32m    <CharacterSet>MultiByte</CharacterSet>[m
+[32m+[m[32m  </PropertyGroup>[m
+[32m+[m[32m  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />[m
+[32m+[m[32m  <ImportGroup Label="ExtensionSettings">[m
+[32m+[m[32m  </ImportGroup>[m
+[32m+[m[32m  <ImportGroup Label="Shared">[m
+[32m+[m[32m  </ImportGroup>[m
+[32m+[m[32m  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">[m
+[32m+[m[32m    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />[m
+[32m+[m[32m  </ImportGroup>[m
+[32m+[m[32m  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">[m
+[32m+[m[32m    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />[m
+[32m+[m[32m  </ImportGroup>[m
+[32m+[m[32m  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[m
+[32m+[m[32m    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />[m
+[32m+[m[32m  </ImportGroup>[m
+[32m+[m[32m  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[m
+[32m+[m[32m    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />[m
+[32m+[m[32m  </ImportGroup>[m
+[32m+[m[32m  <PropertyGroup Label="UserMacros" />[m
+[32m+[m[32m  <PropertyGroup />[m
+[32m+[m[32m  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">[m
+[32m+[m[32m    <ClCompile>[m
+[32m+[m[32m      <WarningLevel>Level3</WarningLevel>[m
+[32m+[m[32m      <Optimization>Disabled</Optimization>[m
+[32m+[m[32m      <SDLCheck>false</SDLCheck>[m
+[32m+[m[32m      <ConformanceMode>true</ConformanceMode>[m
+[32m+[m[32m    </ClCompile>[m
+[32m+[m[32m    <Link>[m
+[32m+[m[32m      <SubSystem>Console</SubSystem>[m
+[32m+[m[32m    </Link>[m
+[32m+[m[32m  </ItemDefinitionGroup>[m
+[32m+[m[32m  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[m
+[32m+[m[32m    <ClCompile>[m
+[32m+[m[32m      <WarningLevel>Level3</WarningLevel>[m
+[32m+[m[32m      <Optimization>Disabled</Optimization>[m
+[32m+[m[32m      <SDLCheck>true</SDLCheck>[m
+[32m+[m[32m      <ConformanceMode>true</ConformanceMode>[m
+[32m+[m[32m    </ClCompile>[m
+[32m+[m[32m    <Link>[m
+[32m+[m[32m      <SubSystem>Console</SubSystem>[m
+[32m+[m[32m    </Link>[m
+[32m+[m[32m  </ItemDefinitionGroup>[m
+[32m+[m[32m  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">[m
+[32m+[m[32m    <ClCompile>[m
+[32m+[m[32m      <WarningLevel>Level3</WarningLevel>[m
+[32m+[m[32m      <Optimization>MaxSpeed</Optimization>[m
+[32m+[m[32m      <FunctionLevelLinking>true</FunctionLevelLinking>[m
+[32m+[m[32m      <IntrinsicFunctions>true</IntrinsicFunctions>[m
+[32m+[m[32m      <SDLCheck>false</SDLCheck>[m
+[32m+[m[32m      <ConformanceMode>true</ConformanceMode>[m
+[32m+[m[32m    </ClCompile>[m
+[32m+[m[32m    <Link>[m
+[32m+[m[32m      <SubSystem>Console</SubSystem>[m
+[32m+[m[32m      <EnableCOMDATFolding>true</EnableCOMDATFolding>[m
+[32m+[m[32m      <OptimizeReferences>true</OptimizeReferences>[m
+[32m+[m[32m    </Link>[m
+[32m+[m[32m  </ItemDefinitionGroup>[m
+[32m+[m[32m  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[m
+[32m+[m[32m    <ClCompile>[m
+[32m+[m[32m      <WarningLevel>Level3</WarningLevel>[m
+[32m+[m[32m      <Optimization>MaxSpeed</Optimization>[m
+[32m+[m[32m      <FunctionLevelLinking>true</FunctionLevelLinking>[m
+[32m+[m[32m      <IntrinsicFunctions>true</IntrinsicFunctions>[m
+[32m+[m[32m      <SDLCheck>true</SDLCheck>[m
+[32m+[m[32m      <ConformanceMode>true</ConformanceMode>[m
+[32m+[m[32m    </ClCompile>[m
+[32m+[m[32m    <Link>[m
+[32m+[m[32m      <SubSystem>Console</SubSystem>[m
+[32m+[m[32m      <EnableCOMDATFolding>true</EnableCOMDATFolding>[m
+[32m+[m[32m      <OptimizeReferences>true</OptimizeReferences>[m
+[32m+[m[32m    </Link>[m
+[32m+[m[32m  </ItemDefinitionGroup>[m
+[32m+[m[32m  <ItemGroup>[m
+[32m+[m[32m    <ClCompile Include="Functions.cpp" />[m
+[32m+[m[32m    <ClCompile Include="main.cpp" />[m
+[32m+[m[32m  </ItemGroup>[m
+[32m+[m[32m  <ItemGroup>[m
+[32m+[m[32m    <ClInclude Include="Functions.h" />[m
+[32m+[m[32m  </ItemGroup>[m
+[32m+[m[32m  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />[m
+[32m+[m[32m  <ImportGroup Label="ExtensionTargets">[m
+[32m+[m[32m  </ImportGroup>[m
+[32m+[m[32m</Project>[m
+\ No newline at end of file[m
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/HomeWork(1.1).vcxproj.filters b/HomeWork(1.1)/HomeWork(1.1)/HomeWork(1.1).vcxproj.filters[m
+[1mnew file mode 100644[m
+[1mindex 0000000..12a042a[m
+[1m--- /dev/null[m
+[1m+++ b/HomeWork(1.1)/HomeWork(1.1)/HomeWork(1.1).vcxproj.filters[m
+[36m@@ -0,0 +1,30 @@[m
+[32m+[m[32m﻿<?xml version="1.0" encoding="utf-8"?>[m
+[32m+[m[32m<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">[m
+[32m+[m[32m  <ItemGroup>[m
+[32m+[m[32m    <Filter Include="Source Files">[m
+[32m+[m[32m      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>[m
+[32m+[m[32m      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>[m
+[32m+[m[32m    </Filter>[m
+[32m+[m[32m    <Filter Include="Header Files">[m
+[32m+[m[32m      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>[m
+[32m+[m[32m      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>[m
+[32m+[m[32m    </Filter>[m
+[32m+[m[32m    <Filter Include="Resource Files">[m
+[32m+[m[32m      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>[m
+[32m+[m[32m      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>[m
+[32m+[m[32m    </Filter>[m
+[32m+[m[32m  </ItemGroup>[m
+[32m+[m[32m  <ItemGroup>[m
+[32m+[m[32m    <ClCompile Include="main.cpp">[m
+[32m+[m[32m      <Filter>Source Files</Filter>[m
+[32m+[m[32m    </ClCompile>[m
+[32m+[m[32m    <ClCompile Include="Functions.cpp">[m
+[32m+[m[32m      <Filter>Source Files</Filter>[m
+[32m+[m[32m    </ClCompile>[m
+[32m+[m[32m  </ItemGroup>[m
+[32m+[m[32m  <ItemGroup>[m
+[32m+[m[32m    <ClInclude Include="Functions.h">[m
+[32m+[m[32m      <Filter>Header Files</Filter>[m
+[32m+[m[32m    </ClInclude>[m
+[32m+[m[32m  </ItemGroup>[m
+[32m+[m[32m</Project>[m
+\ No newline at end of file[m
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/HomeWork(1.1).vcxproj.user b/HomeWork(1.1)/HomeWork(1.1)/HomeWork(1.1).vcxproj.user[m
+[1mnew file mode 100644[m
+[1mindex 0000000..88a5509[m
+[1m--- /dev/null[m
+[1m+++ b/HomeWork(1.1)/HomeWork(1.1)/HomeWork(1.1).vcxproj.user[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m﻿<?xml version="1.0" encoding="utf-8"?>[m
+[32m+[m[32m<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">[m
+[32m+[m[32m  <PropertyGroup />[m
+[32m+[m[32m</Project>[m
+\ No newline at end of file[m
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/eddited_file.txt b/HomeWork(1.1)/HomeWork(1.1)/eddited_file.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..90dcafb[m
+[1m--- /dev/null[m
+[1m+++ b/HomeWork(1.1)/HomeWork(1.1)/eddited_file.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m-3 48 -8 48 48 48 -26 48 48 48 48 -21 48 -13 48 -29 -44 48 48 -35 48 -4 -8 -11 -8 48 48 -26 48 -38 48 48 -18 48 48 -18 -22 48 -50 -24 -42 48 -38 -14 48 48 48 48 -7 -3[m[41m [m
+\ No newline at end of file[m
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/main.cpp b/HomeWork(1.1)/HomeWork(1.1)/main.cpp[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3a26157[m
+[1m--- /dev/null[m
+[1m+++ b/HomeWork(1.1)/HomeWork(1.1)/main.cpp[m
+[36m@@ -0,0 +1,20 @@[m
+[32m+[m[32m#include "Functions.h"[m
+[32m+[m[32m#include <vector>[m
+[32m+[m
+[32m+[m[32mvoid main()[m
+[32m+[m[32m{[m
+[32m+[m	[32mstd::string stk = "newFIle.txt";[m
+[32m+[m	[32mcreateData(stk);[m
+[32m+[m	[32mstd::vector<int> vec;[m
+[32m+[m	[32mstd::vector<int> vec1;[m
+[32m+[m	[32mstd::vector<int> vec2;[m
+[32m+[m	[32mvec.resize(50);[m
+[32m+[m	[32mcreateData(stk,vec);[m
+[32m+[m	[32mloadDataFile(vec1, stk);[m
+[32m+[m	[32mstd::vector<int>::iterator beg = vec1.begin();[m
+[32m+[m	[32mstd::vector<int>::iterator end = vec1.end();[m
+[32m+[m	[32mmodify_each(beg,end);[m
+[32m+[m	[32moutputResultIterators(vec1, "eddited_file.txt");[m
+[32m+[m	[32msystem("pause");[m
+[32m+[m	[32mreturn;[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/HomeWork(1.1)/HomeWork(1.1)/newFIle.txt b/HomeWork(1.1)/HomeWork(1.1)/newFIle.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1cdb928[m
+[1m--- /dev/null[m
+[1m+++ b/HomeWork(1.1)/HomeWork(1.1)/newFIle.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m-3 6 -8 15 33 23 -26 20 34 3 13 -21 22 -13 19 -29 -44 39 15 -35 6 -4 -8 -11 -8 6 48 -26 32 -38 44 25 -18 37 16 -18 -22 2 -50 -24 -42 41 -38 -14 26 16 38 17 -7 -3[m[41m [m
+\ No newline at end of file[m
