@@ -15,6 +15,7 @@ void main()
 	std::vector<int>::iterator end = vec1.end();
 	modify_each(beg,end);
 	outputResultIterators(vec1, "eddited_file.txt");
+	outputResultIterators(vec1, "another_add.txt");
 	system("pause");
 	return;
 }
