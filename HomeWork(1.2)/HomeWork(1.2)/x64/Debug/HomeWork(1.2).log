@@ -1,0 +1,11 @@
+﻿  Application.cpp
+  Firm.cpp
+C:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.2)\HomeWork(1.2)\DataType.h(44,2): warning C4091:  'typedef ': ignored on left of 'bill' when no variable is declared
+  main.cpp
+C:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.2)\HomeWork(1.2)\DataType.h(44,2): warning C4091:  'typedef ': ignored on left of 'bill' when no variable is declared
+  Generating Code...
+C:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.2)\HomeWork(1.2)\DataType.h(44,2): warning C4091:  'typedef ': ignored on left of 'bill' when no variable is declared
+C:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.2)\HomeWork(1.2)\Firm.cpp(249): warning C4715:  'Firm::upload_data': not all control paths return a value
+Firm.obj : error LNK2005: "struct bill __cdecl create_bill(void)" (?create_bill@@YA?AUbill@@XZ) already defined in Application.obj
+main.obj : error LNK2005: "struct bill __cdecl create_bill(void)" (?create_bill@@YA?AUbill@@XZ) already defined in Application.obj
+C:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.2)\x64\Debug\HomeWork(1.2).exe : fatal error LNK1169: one or more multiply defined symbols found

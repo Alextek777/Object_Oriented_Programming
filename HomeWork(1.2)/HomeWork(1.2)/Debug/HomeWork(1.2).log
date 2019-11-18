@@ -1,0 +1,6 @@
+﻿  Application.cpp
+  main.cpp
+C:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.2)\HomeWork(1.2)\DataType.h(47,2): warning C4091:  'typedef ': ignored on left of 'bill' when no variable is declared
+  Generating Code...
+C:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.2)\HomeWork(1.2)\DataType.h(47,2): warning C4091:  'typedef ': ignored on left of 'bill' when no variable is declared
+  HomeWork(1.2).vcxproj -> C:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.2)\Debug\HomeWork(1.2).exe
