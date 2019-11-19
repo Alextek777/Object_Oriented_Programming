@@ -1,5 +1,6 @@
 ﻿#include "Firm.h"
 #include <vector>
+#include <iomanip>
 /*
 void Firm::addBill(bill &new_bill)
 {
@@ -168,7 +169,9 @@ bool Firm::file_input()
 		else
 		{
 			data = myNamespace::create_bill();
-			fout << data;
+			//fout << data;
+
+			fout.write(reinterpret_cast<const char*>(&data), sizeof(data));
 
 			data.set_null();
 		}
@@ -306,45 +309,55 @@ bool Firm::find_stuff(std::string &find_me)
 
 
 
-//bool Firm::from_bin_to_txt()
-//{
-//	std::ifstream fin;
-//	std::ofstream fout;
-//	fin.open(FileName, std::ios::binary | std::ios::in | std::ios::app);
-//	fout.open("NewTxtFile.txt", std::ios::out | std::ios::app);
-//
-//	if (fin.is_open() && fout.is_open())
-//		std::cout << "files succesfully opened!" << std::endl;
-//	else
-//	{
-//		std::cout << "error while opening files!" << std::endl;
-//		return false;
-//	}
-//
-//
-//
-//	fin.seekg(0, std::ios::end);
-//	const int length = fin.tellg();
-//	fin.seekg(0, std::ios::beg);
-//
-//	bill buff;
-//	std::vector<bill> vec(100);
-//	while (fin.tellg() < length)
-//
-//	{
-//		fin.read((char*)& buff.Price, sizeof(buff.Price));
-//		fin.read((char*)& buff.complited_work, sizeof(buff.complited_work));
-//		fin.read((char*)& buff.Firm_name, sizeof(buff.Firm_name));
-//		fin.read((char*)& buff.Work_type, sizeof(buff.Work_type));
-//		fin.read((char*)& buff.Date, sizeof(buff.Date));
-//		fin.read((char*)& buff.Unit, sizeof(buff.Unit));
-//
-//		if (buff.full())
-//			vec.push_back(buff);
-//	}
-//	fin.close();
-//	return true;
-//}
+bool Firm::from_bin_to_txt()
+{
+	std::ifstream fin;
+	std::ofstream fout;
+	fin.open(FileName, std::ios::binary | std::ios::app);
+	fout.open("converted.txt", std::ios::trunc);
+
+	if (fin.is_open() && fout.is_open())
+		std::cout << "files succesfully opened!" << std::endl;
+	else
+	{
+		std::cout << "error while opening files!" << std::endl;
+		return false;
+	}
+
+
+
+	fin.seekg(0, std::ios::end);
+	const int length = fin.tellg();
+	fin.seekg(0, std::ios::beg);
+
+	bill buff;
+	std::vector<bill> vec;
+	vec.reserve(100);
+	while (fin.tellg() < length)
+
+	{
+		fin.read(reinterpret_cast<char*>(&buff), sizeof(buff));
+		if (buff.full())
+			vec.push_back(buff);
+
+		//fin.read((char*)& buff.Price, sizeof(buff.Price));
+		//fin.read((char*)& buff.complited_work, sizeof(buff.complited_work));
+		//fin.read((char*)& buff.Firm_name, sizeof(buff.Firm_name));
+		//fin.read((char*)& buff.Work_type, sizeof(buff.Work_type));
+		//fin.read((char*)& buff.Date, sizeof(buff.Date));
+		//fin.read((char*)& buff.Unit, sizeof(buff.Unit));
+
+		//if (buff.full())
+		//	vec.push_back(buff);
+	}
+	fin.close();
+	fout << std::setw(15) << "Price" << std::setw(15) << "Complited Work" << std::setw(15) << "Firm name" << std::setw(15) << "Work Type" << std::setw(15) << "Date" << std::setw(15) << "Unit" << std::endl;
+	for (auto it = vec.begin(); it != vec.end(); it++)
+		fout << *it;
+
+	fout.close();
+	return true;
+}
 
 
 

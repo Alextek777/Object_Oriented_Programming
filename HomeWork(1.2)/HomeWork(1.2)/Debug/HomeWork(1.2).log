@@ -1,6 +1,6 @@
-﻿  Application.cpp
-  main.cpp
-C:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.2)\HomeWork(1.2)\DataType.h(47,2): warning C4091:  'typedef ': ignored on left of 'bill' when no variable is declared
-  Generating Code...
-C:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.2)\HomeWork(1.2)\DataType.h(47,2): warning C4091:  'typedef ': ignored on left of 'bill' when no variable is declared
-  HomeWork(1.2).vcxproj -> C:\Users\alext\Desktop\University\Semester 3\OOP\HW\HomeWork(1.2)\Debug\HomeWork(1.2).exe
+﻿  Firm.cpp
+C:\Users\alext\Desktop\HomeWork(1.2)\HomeWork(1.2)\DataType.h(48,2): warning C4091:  'typedef ': ignored on left of 'bill' when no variable is declared
+C:\Users\alext\Desktop\HomeWork(1.2)\HomeWork(1.2)\Firm.cpp(330,30): warning C4244:  'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\alext\Desktop\HomeWork(1.2)\HomeWork(1.2)\Firm.cpp(330,19): warning C4244:  'initializing': conversion from 'std::streamoff' to 'const int', possible loss of data
+C:\Users\alext\Desktop\HomeWork(1.2)\HomeWork(1.2)\Firm.cpp(283): warning C4715:  'Firm::upload_data': not all control paths return a value
+  HomeWork(1.2).vcxproj -> C:\Users\alext\Desktop\HomeWork(1.2)\Debug\HomeWork(1.2).exe

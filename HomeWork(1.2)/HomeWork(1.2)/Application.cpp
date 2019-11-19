@@ -22,7 +22,7 @@ void Application::start()
 		std::cout << "load data                 - 3" << std::endl;
 		std::cout << "upload data               - 4 " << std::endl;
 		std::cout << "find stuff                - 5" << std::endl;
-		//std::cout << "convert from bin to txt   - 6" << std::endl;
+		std::cout << "convert from bin to txt   - 6" << std::endl;
 		std::cout << "end                       - 0" << std::endl;
 		std::cin >> command;
 
@@ -67,9 +67,13 @@ void Application::start()
 			if(!myFirm.find_stuff(find_me))		// found elements are wrotten in file named "Search_stuff"
 				std::cout << "error while working!" << std::endl;
 			break;
-		//case 6:
+		case 6:
+			if (!myFirm.from_bin_to_txt())
+				std::cout << "error with converting file!" << std::endl;
+			else
+				std::cout << "file successfully converted!" << std::endl;
 
-		//	break;
+			break;
 		default:
 			end = true;
 			break;
