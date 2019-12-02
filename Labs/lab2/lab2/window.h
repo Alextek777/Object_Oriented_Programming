@@ -10,13 +10,14 @@
 #include <QVBoxLayout>
 #include <QWidget>
 #include <QLabel>
+#include <QMainWindow>
 
 #include "defaultmode.h"
 
 #include <QTextEdit>
 
 
-class window : public QDialog
+class window : public QMainWindow
 {
     Q_OBJECT
 
@@ -28,9 +29,15 @@ public:
 
 
 private:
-    QVBoxLayout *mode1;
+     DefaultMode *_defmode;
+     UltimateMode *_ultmode;
+     QHBoxLayout *mode1;
+     QHBoxLayout *mode2;
    // QString memory_string;
    // QWidget *mode1;
+
+private slots:
+     void ultimate_mode_clicked();
 
 
 

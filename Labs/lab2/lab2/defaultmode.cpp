@@ -1,7 +1,7 @@
 #include "defaultmode.h"
 #include <QtMath>
 
-DefaultMode::DefaultMode(QWidget *parent) : QDialog(parent)
+DefaultMode::DefaultMode(QDialog *parent) : QDialog(parent)
 {
 
     //-------------------------------------------LABEL_SETTINGS--------------------------------------------------------------------------------------
@@ -40,7 +40,7 @@ DefaultMode::DefaultMode(QWidget *parent) : QDialog(parent)
     ult = new QRadioButton("Ultra Mode");
 
 
-    LCDNUM->setFixedSize(380,140);
+    LCDNUM->setFixedSize(374,140);
     zero->setMinimumWidth(148);
     zero->setMinimumHeight(70);
     //zero->setFixedSize(148,70);
@@ -62,6 +62,14 @@ DefaultMode::DefaultMode(QWidget *parent) : QDialog(parent)
     rev->setFixedSize(70,70);
     equals->setFixedSize(70,150);
     clean->setFixedSize(70,70);
+
+
+
+
+
+
+
+
 
     def = new QRadioButton("Default");
     equals->setDefault(true);
@@ -144,13 +152,25 @@ DefaultMode::DefaultMode(QWidget *parent) : QDialog(parent)
     l10->addLayout(l9);
     l10->addWidget(equals);
 
-    final = new QVBoxLayout;
+    final = new QVBoxLayout();
+
+    final->setMargin(15);
+
     final->addLayout(l3);
     final->addLayout(l4);
     final->addLayout(l5);
     final->addLayout(l10);
 
-    //setLayout(final);
+
+
+
+
+
+    //final->setSpacing();
+
+
+
+    setLayout(final);
 
     //-----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -158,9 +178,6 @@ DefaultMode::DefaultMode(QWidget *parent) : QDialog(parent)
     //-------------------------------------------CONNECT_SLOTS---------------------------------------------------------------------------------------
 
 
-
-    connect(this->def,SIGNAL(clicked()),this,SLOT(deffault_mode()));
-    connect(this->ult,SIGNAL(clicked()),this,SLOT(ultimate_mode()));
 
 
     connect(one,SIGNAL(clicked()),this,SLOT(num_clicked()));
@@ -185,6 +202,8 @@ DefaultMode::DefaultMode(QWidget *parent) : QDialog(parent)
     connect(sqrt_but,SIGNAL(clicked()),this,SLOT(operation_clicked()));
     connect(rev,SIGNAL(clicked()),this,SLOT(operation_clicked()));
 
+//    connect(ult,SIGNAL(clicked()),this,SLOT(ultimate_mode_radiobutton()));
+//    connect(def,SIGNAL(clicked()),this,SLOT(deffault_mode_radiobutton()));
 
 
 
@@ -193,15 +212,6 @@ DefaultMode::DefaultMode(QWidget *parent) : QDialog(parent)
 
 //----------------------------------SLOTS----------------------------------------------------------------------------------------------
 
-void DefaultMode::deffault_mode()
-{
-
-}
-
-void DefaultMode::ultimate_mode()
-{
-
-}
 
 void DefaultMode::num_clicked()
 {
@@ -210,7 +220,7 @@ void DefaultMode::num_clicked()
     double new_double_text = (LCDNUM->text() + button_clicked->text()).toDouble();
     current_text += button_clicked->text();
     if(new_double_text > 99999999)
-         new_str_text = "MAX SIZE!";
+         new_str_text = "MAX \n SIZE!";
     else
          new_str_text = QString::number(new_double_text,'g',6);
     LCDNUM->setText(new_str_text);
@@ -267,6 +277,15 @@ void DefaultMode::num_clicked()
         }
     }
 
+//    void DefaultMode::ultimate_mode_radiobutton()
+//    {
+////        ultimate_mode_widget = new UltimateMode(this);
+////        final->addWidget(ultimate_mode_widget);
+//    }
 
+//    void DefaultMode::deffault_mode_radiobutton()
+//    {
+
+//    }
 
 

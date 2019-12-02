@@ -18,13 +18,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     defaultmode.cpp \
     main.cpp \
-    my_functions.cpp \
+    ultimatemode.cpp \
     window.cpp
 
 HEADERS += \
     Binary_tree_counter_function.h \
     defaultmode.h \
-    my_functions.h \
+    ultimatemode.h \
     window.h
 
 FORMS +=

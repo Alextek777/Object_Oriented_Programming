@@ -10,7 +10,7 @@
 #include <QWidget>
 #include <QLabel>
 
-
+#include "ultimatemode.h"
 #include <QTextEdit>
 
 class DefaultMode : public  QDialog
@@ -19,7 +19,7 @@ class DefaultMode : public  QDialog
 
     //friend class window;
 public:
-    DefaultMode(QWidget *parent = nullptr);
+    explicit DefaultMode(QDialog *parent = nullptr);
     friend class window;
 private:
     QLabel *LCDNUM;
@@ -32,16 +32,17 @@ private:
     *seven,*eight,*nine,*plus,*minus,*dot,*mult,*devide,
     *sqrt_but,*rev,*equals,*clean;
 
-
-
     QRadioButton *def,*ult;
 
-    QVBoxLayout *final;     //final layout
+     //final layout
+     QVBoxLayout *final;
+
+     UltimateMode *ultimate_mode_widget;
 
 private slots:
 
-    void deffault_mode();
-    void ultimate_mode();
+//    void deffault_mode_radiobutton();
+//    void ultimate_mode_radiobutton();
 
 
     void num_clicked();
