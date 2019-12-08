@@ -32,7 +32,7 @@ private:
      DefaultMode *_defmode;
      UltimateMode *_ultmode;
      QHBoxLayout *mode1;
-     QHBoxLayout *mode2;
+     //QHBoxLayout *mode2;
    // QString memory_string;
    // QWidget *mode1;
 

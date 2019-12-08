@@ -11,10 +11,9 @@ window::window(QWidget *parent) :  QMainWindow(parent)
 
     mode1 = new QHBoxLayout(this);
 
-    this->resize(400, 574);
 
     mode1->addWidget(_defmode);
-    setLayout(mode1);
+    //setLayout(mode1);
     setCentralWidget(_defmode);
 
     connect(_defmode->ult,SIGNAL(clicked()),this,SLOT(ultimate_mode_clicked()));
@@ -27,6 +26,7 @@ void window::ultimate_mode_clicked()
     _ultmode = new UltimateMode(_defmode);
     mode1->addWidget(_ultmode);
     this->resize(600,574);
+
 
 //    mode2->addLayout(mode1);
 //    setLayout(mode2);
