@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>img/close.jpg</file>
+        <file>img/exit.jpg</file>
+        <file>img/open.png</file>
+        <file>img/xml.png</file>
+    </qresource>
+    <qresource prefix="/XQuerry_file">
+        <file>myQuerry.xq</file>
+    </qresource>
+</RCC>
