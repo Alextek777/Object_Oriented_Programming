@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>imgFiles/copy.png</file>
+        <file>imgFiles/cut.png</file>
+        <file>imgFiles/new file.png</file>
+        <file>imgFiles/open file.png</file>
+        <file>imgFiles/paste.png</file>
+        <file>imgFiles/save file.png</file>
+        <file>imgFiles/document.png</file>
+    </qresource>
+    <qresource prefix="/keywordFiles">
+        <file>xml_words.xml</file>
+    </qresource>
+</RCC>

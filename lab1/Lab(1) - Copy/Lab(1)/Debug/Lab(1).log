@@ -1,0 +1,12 @@
+﻿  mashLoader.cpp
+C:\Users\alext\Desktop\University\Semester 3\OOP С++\labs\lab1\Lab(1) - Copy\Lab(1)\mashLoader.cpp(39,6): warning C4101:  'buff_int': unreferenced local variable
+C:\Users\alext\Desktop\University\Semester 3\OOP С++\labs\lab1\Lab(1) - Copy\Lab(1)\mashLoader.cpp(102,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\alext\Desktop\University\Semester 3\OOP С++\labs\lab1\Lab(1) - Copy\Lab(1)\mashLoader.cpp(116,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\alext\Desktop\University\Semester 3\OOP С++\labs\lab1\Lab(1) - Copy\Lab(1)\mashLoader.cpp(127,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\alext\Desktop\University\Semester 3\OOP С++\labs\lab1\Lab(1) - Copy\Lab(1)\mashLoader.cpp(139,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\alext\Desktop\University\Semester 3\OOP С++\labs\lab1\Lab(1) - Copy\Lab(1)\mashLoader.cpp(152,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\alext\Desktop\University\Semester 3\OOP С++\labs\lab1\Lab(1) - Copy\Lab(1)\mashLoader.cpp(165,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\alext\Desktop\University\Semester 3\OOP С++\labs\lab1\Lab(1) - Copy\Lab(1)\mashLoader.cpp(251,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\alext\Desktop\University\Semester 3\OOP С++\labs\lab1\Lab(1) - Copy\Lab(1)\mashLoader.cpp(292,7): warning C4101:  'flag1': unreferenced local variable
+C:\Users\alext\Desktop\University\Semester 3\OOP С++\labs\lab1\Lab(1) - Copy\Lab(1)\mashLoader.cpp(293,7): warning C4101:  'flag2': unreferenced local variable
+  Lab(1).vcxproj -> C:\Users\alext\Desktop\University\Semester 3\OOP С++\labs\lab1\Lab(1) - Copy\Debug\Lab(1).exe
