@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/keywordFiles">
+        <file>sqlSyntax.xml</file>
+    </qresource>
+</RCC>

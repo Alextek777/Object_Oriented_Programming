@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <keywords exp = "с++ h cpp // /\* */">
+        <word>\bselect\b</word>
+        <word>\bfrom\b</word>
+	<word>\bFROM\b</word>
+        <word>\bSELECT\b</word>
+        <word>\bcreate\b</word>
+        <word>\bCREATE\b</word>
+        <word>\btable\b</word>
+        <word>\bTABLE\b</word>
+        <word>\bdrop\b</word>
+        <word>\bDROP\b</word>
+        <word>\binsert\b</word>
+        <word>\bINSERT\b</word>
+        <word>\bnull\b</word>
+        <word>\bNULL\b</word>
+        <word>\bNOT\b</word>
+        <word>\bnot\b</word>
+        <word>\bprimary\b</word>
+        <word>\bPRIMARY\b</word>
+        <word>\bINT\b</word>
+        <word>\bkey\b</word>
+        <word>\bINT\b</word>
+        <word>\bKEY\b</word>
+        <word>\bvarchar\b</word>
+        <word>\bVARCHAR\b</word>
+        <word>\bINT\b</word>
+        <word>\bint\b</word>
+        <word>\bINT\b</word>
+        <word>\bFOREIGN\b</word>
+        <word>\bforeign\b</word>
+    </keywords>
+
+</config>
