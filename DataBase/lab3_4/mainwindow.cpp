@@ -24,8 +24,21 @@ MainWindow::~MainWindow()
 
 void MainWindow::rent_car()
 {
-    if(query->exec(QString("INSERT INTO orders VALUES('%1','%2','%3')").arg(ui->comboBoxCars->currentData().toString()).arg(ui->lineFio->text()).arg(ui->calendar_rentCar->selectedDate().toString("yyyy-MM-dd"))))
+    if(query->exec(QString("INSERT INTO orders VALUES('%1','%2','%3')").arg(ui->comboBoxCars->currentText()).arg(ui->lineFio->text()).arg(ui->calendar_rentCar->selectedDate().toString("yyyy-MM-dd"))))
+    {
         QMessageBox::information(this,"info","Order successfully added");
+    ui->comboBoxCars->clear();
+
+
+    //query->first();
+
+    query->exec(QString("select id from cars where id not in (select distinct id_order from orders where order_date = '%1')").arg(ui->calendar_rentCar->selectedDate().toString("yyyy-MM-dd")));
+    ui->comboBoxCars->clear();
+
+    ui->comboBoxCars->addItem(query->value(0).toString());
+            while(query->next())
+                    ui->comboBoxCars->addItem(query->value(0).toString());
+    }
     else
         QMessageBox::warning(this,"warning","Order not added");
 }
