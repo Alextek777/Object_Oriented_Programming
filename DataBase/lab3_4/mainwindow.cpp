@@ -9,11 +9,12 @@ MainWindow::MainWindow(QWidget *parent)
     connect_database();
     create_bars();
     create_calendars();
-
+    ui->tabWidget->setTabText(0,"Информация на сегодня");
+    ui->tabWidget->setTabText(1,"Доходы");
+    ui->tabWidget->setTabText(2,"Добавление");
     connect(ui->pushButton_rentCar,SIGNAL(clicked()),this,SLOT(rent_car()));
     connect(ui->pushButton_addcar,SIGNAL(clicked()),this,SLOT(add_car()));
     connect(ui->pushButton_change,SIGNAL(clicked()),this,SLOT(change_parameters()));
-
 
 }
 
@@ -71,7 +72,7 @@ void MainWindow::connect_database()
     if(db.open())
     {
         QMessageBox::information(this,"info","conntecter successfully");
-        query->exec("select set_today()");
+        //query->exec("select set_today()");
         ui->calendar_rentCar->setMinimumDate(ui->calendar_rentCar->selectedDate());
         set_today_outlays();
     }
@@ -124,7 +125,7 @@ void MainWindow::get_first_date()
     first_date = ui->calendarFirst->selectedDate().toString("yyyy-MM-dd");
     ui->calendarSecond->setMinimumDate(ui->calendarFirst->selectedDate());
     model_tab2.setQuery(QString("select id_order as номер, rent as доход, sum(outlay) as убыток, (rent-sum(outlay)) as прибыль from (select id_order,sum(rent) as rent from orders left join cars on cars.id = orders.id_order where order_date >= '%1'::date and order_date <= '%2'::date group by id_order) as foo left join (select * from outlays where outlay_date >= '%1'::date and outlay_date <= '%2'::date) as foo2 on foo.id_order = foo2.id_outlay group by id_order, rent").arg(first_date).arg(second_date));
-    qDebug() << first_date << "\t" << second_date;
+    //qDebug() << first_date << "\t" << second_date;
     ui->tableCash->setModel(&model_tab2);
 }
 

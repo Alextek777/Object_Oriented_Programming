@@ -33,7 +33,7 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QHBoxLayout *horizontalLayout;
+    QVBoxLayout *verticalLayout_10;
     QTabWidget *tabWidget;
     QWidget *tab;
     QHBoxLayout *horizontalLayout_3;
@@ -108,8 +108,8 @@ public:
         MainWindow->resize(1148, 581);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        horizontalLayout = new QHBoxLayout(centralwidget);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        verticalLayout_10 = new QVBoxLayout(centralwidget);
+        verticalLayout_10->setObjectName(QString::fromUtf8("verticalLayout_10"));
         tabWidget = new QTabWidget(centralwidget);
         tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
         tab = new QWidget();
@@ -328,6 +328,7 @@ public:
 
         pushButton_rentCar = new QPushButton(tab_3);
         pushButton_rentCar->setObjectName(QString::fromUtf8("pushButton_rentCar"));
+        pushButton_rentCar->setStyleSheet(QString::fromUtf8("QPushButton { border: 1px solid gray;} QPushButton:pressed {background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #dadbde, stop: 1 #f6f7fa);}"));
 
         verticalLayout_6->addWidget(pushButton_rentCar);
 
@@ -408,6 +409,7 @@ public:
 
         pushButton_addcar = new QPushButton(tab_3);
         pushButton_addcar->setObjectName(QString::fromUtf8("pushButton_addcar"));
+        pushButton_addcar->setStyleSheet(QString::fromUtf8("QPushButton { border: 1px solid gray;} QPushButton:pressed {background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #dadbde, stop: 1 #f6f7fa);}"));
 
         verticalLayout_7->addWidget(pushButton_addcar);
 
@@ -486,6 +488,7 @@ public:
 
         pushButton_change = new QPushButton(tab_3);
         pushButton_change->setObjectName(QString::fromUtf8("pushButton_change"));
+        pushButton_change->setStyleSheet(QString::fromUtf8("QPushButton { border: 1px solid gray;} QPushButton:pressed {background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #dadbde, stop: 1 #f6f7fa);}"));
 
         verticalLayout_8->addWidget(pushButton_change);
 
@@ -497,7 +500,7 @@ public:
 
         tabWidget->addTab(tab_3, QString());
 
-        horizontalLayout->addWidget(tabWidget);
+        verticalLayout_10->addWidget(tabWidget);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -538,9 +541,13 @@ public:
         label_11->setText(QCoreApplication::translate("MainWindow", "\320\220\321\200\320\265\320\275\320\264\320\260/\320\264\320\265\320\275\321\214:", nullptr));
         pushButton_addcar->setText(QCoreApplication::translate("MainWindow", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214", nullptr));
         label_15->setText(QCoreApplication::translate("MainWindow", "\320\233\320\270\321\206\320\265\320\275\320\267\320\270\321\217:", nullptr));
+        lineEdit_license->setText(QCoreApplication::translate("MainWindow", "365", nullptr));
         label_16->setText(QCoreApplication::translate("MainWindow", "\320\242\320\265\321\205. \320\276\320\261\321\201\320\273.:", nullptr));
+        lineEdit_t_o->setText(QCoreApplication::translate("MainWindow", "30", nullptr));
         label_17->setText(QCoreApplication::translate("MainWindow", "\320\227\320\260\320\274\320\265\320\275\320\260 \320\272\320\276\320\273\320\265\321\201:", nullptr));
+        lineEdit_wheels->setText(QCoreApplication::translate("MainWindow", "250", nullptr));
         label_18->setText(QCoreApplication::translate("MainWindow", "\320\241\321\202\321\200\320\260\321\205\320\276\320\262\320\272\320\260:", nullptr));
+        lineEdit_insurance->setText(QCoreApplication::translate("MainWindow", "365", nullptr));
         pushButton_change->setText(QCoreApplication::translate("MainWindow", "\320\230\320\267\320\274\320\265\320\275\320\270\321\202\321\214", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_3), QCoreApplication::translate("MainWindow", "Page", nullptr));
         toolBar->setWindowTitle(QCoreApplication::translate("MainWindow", "toolBar", nullptr));

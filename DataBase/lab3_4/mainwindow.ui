@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QHBoxLayout" name="horizontalLayout">
+   <layout class="QVBoxLayout" name="verticalLayout_10">
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
@@ -239,6 +239,9 @@ color: rgb(64, 64, 64);
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_rentCar">
+              <property name="styleSheet">
+               <string notr="true">QPushButton { border: 1px solid gray;} QPushButton:pressed {background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #dadbde, stop: 1 #f6f7fa);}</string>
+              </property>
               <property name="text">
                <string>Заказать</string>
               </property>
@@ -312,6 +315,9 @@ color: rgb(64, 64, 64);
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_addcar">
+              <property name="styleSheet">
+               <string notr="true">QPushButton { border: 1px solid gray;} QPushButton:pressed {background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #dadbde, stop: 1 #f6f7fa);}</string>
+              </property>
               <property name="text">
                <string>Добавить</string>
               </property>
@@ -331,7 +337,11 @@ color: rgb(64, 64, 64);
                </widget>
               </item>
               <item>
-               <widget class="QLineEdit" name="lineEdit_license"/>
+               <widget class="QLineEdit" name="lineEdit_license">
+                <property name="text">
+                 <string>365</string>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -345,7 +355,11 @@ color: rgb(64, 64, 64);
                </widget>
               </item>
               <item>
-               <widget class="QLineEdit" name="lineEdit_t_o"/>
+               <widget class="QLineEdit" name="lineEdit_t_o">
+                <property name="text">
+                 <string>30</string>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -359,7 +373,11 @@ color: rgb(64, 64, 64);
                </widget>
               </item>
               <item>
-               <widget class="QLineEdit" name="lineEdit_wheels"/>
+               <widget class="QLineEdit" name="lineEdit_wheels">
+                <property name="text">
+                 <string>250</string>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -373,12 +391,19 @@ color: rgb(64, 64, 64);
                </widget>
               </item>
               <item>
-               <widget class="QLineEdit" name="lineEdit_insurance"/>
+               <widget class="QLineEdit" name="lineEdit_insurance">
+                <property name="text">
+                 <string>365</string>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_change">
+              <property name="styleSheet">
+               <string notr="true">QPushButton { border: 1px solid gray;} QPushButton:pressed {background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #dadbde, stop: 1 #f6f7fa);}</string>
+              </property>
               <property name="text">
                <string>Изменить</string>
               </property>
